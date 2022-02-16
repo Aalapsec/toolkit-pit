@@ -37,4 +37,8 @@ sudo apt install sqlmap -y        # SQLmap installation
 
 echo -e "\e[1;33m**** Installing Netdiscover ****\e[0m"
 sudo apt install netdiscover    # netdiscover installation
+
+echo -e "\e[1;33m**** Installing tcpdump ****\e[0m"
+sudo apt install tcpdump -y         # tcpdump installation
+
 echo -e "\e[1;32mScript Executed Successfully!\e[0m"
